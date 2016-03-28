@@ -56,6 +56,9 @@ public class EpisodeDetailFragment extends Fragment implements APIResponseInterf
         textViewImdb = (TextView)view.findViewById(R.id.id_imdb);
         textViewGenre = (TextView)view.findViewById(R.id.id_genre);
         textViewDirector = (TextView)view.findViewById(R.id.id_director);
+        textViewImdb.setVisibility(View.GONE);
+        textViewGenre.setVisibility(View.GONE);
+        textViewDirector.setVisibility(View.GONE);
         return view;
     }
 
