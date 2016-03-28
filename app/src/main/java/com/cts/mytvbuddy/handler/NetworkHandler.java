@@ -15,8 +15,8 @@ import org.json.JSONObject;
 
 /**
  * Created by nishantranjansingh on 3/26/16.
- * NetworkHandler is Singleton class, who does the networking operations using Volley library. It It has registered observers with it to
- * notify them once done with the job.
+ * NetworkHandler is Singleton class, who does the networking operations using Volley library.It has a registered observer to
+ * notify once done with job.
  */
 public class NetworkHandler {
 
