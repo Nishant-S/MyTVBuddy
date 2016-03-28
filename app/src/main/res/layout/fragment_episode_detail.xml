@@ -78,6 +78,7 @@
                 android:text="IMDB Rating"
                 style="@style/TableViewText"
                 android:textStyle="bold"
+                android:visibility="gone"
                 />
             <TextView
                 android:id="@+id/id_imdb"
@@ -89,6 +90,7 @@
                 android:text="Genre"
                 style="@style/TableViewText"
                 android:textStyle="bold"
+                android:visibility="gone"
                 />
             <TextView
                 android:id="@+id/id_genre"
@@ -100,6 +102,7 @@
                 android:text="Director"
                 style="@style/TableViewText"
                 android:textStyle="bold"
+                android:visibility="gone"
                 />
             <TextView
                 android:id="@+id/id_director"
