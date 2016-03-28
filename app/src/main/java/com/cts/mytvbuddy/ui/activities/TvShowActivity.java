@@ -40,7 +40,11 @@ public class TvShowActivity extends AppCompatActivity implements EpisodeSelected
     public void setActionBarTitle(String title) {
         getSupportActionBar().setTitle(title);
     }
-
+    
+    /**
+     * Get selected Episode from the list and pass title as well as imdbId to EpisodeDetailFragment
+     * @param selectedIndex Selected index from list
+     */
     @Override
     public void onEpisodeSelected(int selectedIndex) {
         Episode selectedEpisode = JsonHandler.getJsonHandler().getEpisodeCollection().getEpisodeList().get(selectedIndex);
