@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">MyTvBuddy</string>
+    <string name="menu_default">Help</string>
+    <string name="app_title_home">Game of Thrones</string>
+    <string name="loading_str">Loading...</string>
+    <string name="network_error">There is some problem with connecting server, please try again!</string>
+    <string name="json_parse_error">There is some problem with data format, please try again!</string>
+</resources>
