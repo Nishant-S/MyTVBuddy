@@ -15,7 +15,7 @@ import com.google.gson.JsonSyntaxException;
 /**
  * Created by nishantranjansingh on 3/26/16.
  * JsonHandler is a Singleton class, who parse Json String to a model class using Gson library. It holds reference to the parsed
- * EpisodeCollection as well as Episode. It has registered observers with it to notify them once done with the job using AsyncTask.
+ * EpisodeCollection as well as Episode. It has a registered observer to notify once done with job.
  */
 public class JsonHandler {
     private String TAG = JsonHandler.class.getSimpleName();
