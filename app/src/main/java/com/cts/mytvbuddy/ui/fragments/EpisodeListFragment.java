@@ -84,7 +84,7 @@ public class EpisodeListFragment extends ListFragment implements APIResponseInte
     }
 
     /**
-     * Error during calling server, show the error message to user.
+     * Error during calling server, show the error message to user..
      * @param errorMessage
      */
     @Override
